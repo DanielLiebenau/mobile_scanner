@@ -525,7 +525,7 @@ class MobileScanner(
                 currentTorchState = it.torchState.value ?: -1
             }
 
-            deviceOrientationListener.start()
+            //deviceOrientationListener.start()
 
             mobileScannerStartedCallback(
                 MobileScannerStartParameters(
